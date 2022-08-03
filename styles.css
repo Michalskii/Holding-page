@@ -38,3 +38,16 @@
 	-webkit-transform: skew(-22deg, 0deg);
 	transform: skew(-22deg, 0deg);
 }
+
+@media screen and (min-width: 1366px) {
+	.main-body {
+		width: 1366px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.main-body {
+		width: 100vw;
+		margin-top: 200px;
+	}
+}
